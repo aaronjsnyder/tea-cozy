@@ -7,6 +7,7 @@ body {
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  text-align: center;
 }
 
 a {
@@ -16,6 +17,12 @@ a {
 nav span {
   display: inline-block;
   padding: 20px 10px;
+}
+
+h2,
+h3,
+h4 {
+  margin: 10px auto;
 }
 
 /* Header */
@@ -69,7 +76,63 @@ header nav {
   align-items: center;
 }
 
-.mission-text h2,
-              h4 {
-  margin: 10px auto;
+/* Featured Tea Section */
+
+#featured-tea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1000px;
+}
+
+.teas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tea img {
+  height: 200px;
+  width: 300px;
+  margin: 0 15px;
+}
+
+/* Locations Section */
+
+#locations {
+  background-image: url("../images/locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.location-blocks {
+  display: flex;
+  justify-content: space-between;
+  width: 980px;
+  margin-top: 15px;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+}
+
+.location h3,
+          h4 {
+            margin: 20px auto 25px auto;
+          }
+
+/* Footer */
+
+.copyright {
+  text-align: left;
+  padding-left: 20px;
 }
