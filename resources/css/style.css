@@ -1,6 +1,7 @@
 /* Universal Styles */
 
 body {
+  margin: 0;
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
@@ -22,6 +23,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: black;
   height: 69px;
   width: 100%;
   border-bottom: solid 1px seashell;
@@ -32,8 +34,42 @@ header {
 .logo img {
   color: seashell;
   height: 50px;
+  padding-left: 10px;
 }
 
 header nav {
   padding-right: 10px;
+}
+
+/* Main Content */
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 70px;
+}
+
+/* Mission Section */
+
+#mission {
+  background-image: url("../images/mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mission-text {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mission-text h2,
+              h4 {
+  margin: 10px auto;
 }
