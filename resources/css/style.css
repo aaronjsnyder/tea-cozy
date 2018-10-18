@@ -90,6 +90,7 @@ header nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 5px;
 }
 
 .tea img {
@@ -128,7 +129,7 @@ header nav {
 
 .location h3,
           h4 {
-            margin: 20px auto 25px auto;
+            margin: 20px auto;
           }
 
 /* Footer */
